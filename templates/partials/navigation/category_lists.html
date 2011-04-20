@@ -1,0 +1,14 @@
+foreach $root do
+  if $children do
+    foreach $children do
+    		<div class="entry" onclick="location.href='@url';">
+		<div class="description"  onMouseover="this.style.background = 'url(@thumb) center center'" onmouseout="this.style.background = 'none'"> @description
+		</div >
+        <div class="category">@keywords / @date / @title </div>
+	</div>
+ 
+    endforeach
+  endif
+endforeach
+
+

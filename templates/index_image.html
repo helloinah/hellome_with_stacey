@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>@name's Portfolio</title>
+		<link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
+		<link rel="stylesheet" href="./public/docs/css/screen.css" type="text/css" media="screen"> 
+        
+<link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+		
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".draggable").each(
+		function(intIndex) {
+			var l = Math.floor(Math.random() * ($("#draggable_container").width()-$(this).width()));
+			var t = Math.floor(Math.random() * $("#draggable_container").height());
+			$(this).css("left", l);
+			$(this).css("top", t);
+			$(this).draggable();
+			
+		}
+	);
+});
+</script>
+	</head>
+	<body>
+			
+			  <div id="menu_container">
+              <div class="menu"><strong>
+<a href="mailto:hello.inah@gmail.com">@name</a></strong><br />
+@profession<br /></div>
+<div class="menu">
+  
+  <p> <a href="./">
+    <input name="navigation" type="radio" checked="checked" value="text_navigation" /> 
+    t
+    <font class="blank"> </font>
+    e
+    <font class="blank"> </font>
+    x<font class="blank"> </font>
+    t</a>
+    <br />
+    <a href="index_en_image.html">
+      <input name="navigation" type="radio" value="image_navigation" onclick="location.href='index_en_image.html';" />
+      i<font class="blank"> </font>m<font class="blank"> </font>a<font class="blank"> </font>g<font class="blank"> </font>e
+      </a><br /><br /><input name="search" type="text"/><button type="submit">search</button>
+  </p>
+</div>
+  <div class="menu">
+:pages
+</div>
+
+
+<div class="menu"><p><a href="index_en.html">e<font class="blank"> </font>n</a> | <a href="index_kr.html">k<font class="blank"> </font>r</a>    </p><br />
+</div>
+
+ </div>
+<div id='draggable_container'>
+
+            	:category_lists_image
+			
+            </div>
+		
+        
+        <div class="footer">This site is last updated on @site_updated<br>
+            &copy; Copyright @name @current_year <a class="atom-rss" href="@root_path/?/feed/">RSS</a>
+				<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></div>
+                
+                
+	</body>
+</html>

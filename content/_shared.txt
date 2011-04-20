@@ -1,0 +1,6 @@
+name: IN-AH SHIN
+-
+profession: Graphic Designer
+-
+email: 
+<hello.inah@gmail.com>
