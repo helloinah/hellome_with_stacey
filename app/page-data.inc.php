@@ -184,7 +184,8 @@ Class PageData {
 
     # create asset collections (any assets within a folder beginning with an underscore)
     $asset_collections = self::get_asset_collections($page->file_path);
-    foreach($asset_collections as $collection_name => $collection_files) eval('$page->'.$collection_name.'=$collection_files;');
+	foreach($asset_collections as $collection_name => $collection_files) eval('$page->'.preg_replace("/^\d+?\./","",$collection_name).'=$collection_files;');
+
   }
 
   static function create_textfile_vars($page) {

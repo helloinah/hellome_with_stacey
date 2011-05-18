@@ -1,0 +1,14 @@
+title: Eco-(un)-Friendly Book
+-
+date: 2009
+-
+size: 210mm x 292mm, Inkjet Print, Hand-made prototype book.
+-
+content: 
+
+-
+keywords: PRINT
+- 
+description: Unrevealing the unconscious act
+-
+thumb_width: 210px

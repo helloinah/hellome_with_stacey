@@ -1,10 +1,11 @@
 foreach $video do
-	<div class="media">
-		<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="@width" height="@height" >
+ <div class="draggable_2" onmouseover="this.style.zIndex='100'" onmouseout="this.style.zIndex='1'" style="width:@width; height:@height;">		
+ 			<object class="draggable_images" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
 			<param name="src" value="@url">
-			<param name="autoplay" value="false">
+			<param name="autoplay" value="true">
 			<param name="controller" value="true">
-			<embed src="@url" width="@width" height="@height" autoplay="false" controller="true" pluginspage="http://www.apple.com/quicktime/download/"></embed>
+			<embed src="@url" width="@width" height="@height" autoplay="true" controller="true" pluginspage="http://www.apple.com/quicktime/download/"></embed>
 		</object>
+        
 	</div>
 endforeach

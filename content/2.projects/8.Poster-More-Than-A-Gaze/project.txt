@@ -1,0 +1,20 @@
+title: Poster, More Than a Gaze
+-
+date: 2010
+-
+content: 
+Poster, More Than A Gaze is a visual research project examining the interaction the audience has with the public posters.<br /><br /> The research included an observation of the posters on public space as well as experimenting possible interactivity using three posters that I made up. <br /><br />
+The final outcome of this research project was a poster booklet on fake exhibition, directing the audience into the public spaces where most of the posters on streets appear and asking them to criticise them. 
+
+-
+keywords: PRINT, RESEARCH
+-
+project_color: #3366cc
+-
+description: Enquiry in Public posters
+-
+size: Report: 210mm x 275mm Posters: 275mm x 420mm Response Poster: 420mm x 550mm, Digital/Inkjet Print<br />
+-
+awards: 
+-
+thumb_width: 210px

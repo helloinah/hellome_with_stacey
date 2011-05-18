@@ -1,0 +1,18 @@
+title: Another: Being on the Other Side of the River
+-
+description: Engaging an Empathy
+-
+date: 2010
+-
+size: A&B 143mm x 230mm, AB 270mm x 432mm 
+-
+content: 
+The project Another: Being on the Other Side of the River is designed to engage the general public about the violations of human rights committed against North Koreans. Through the use of a script divided into two books and a supplementary visual reference book, the project aims to create an embodied experience of ‘being’ North Korean to enhance empathy and understanding. The script itself is a collection of first hand experiences of North Korean escapees.
+-
+keywords: PRINT,INTERACTIVE
+-
+project_color: #FF0000
+-
+awards: &#10041; FINALIST, <i>Annual Manual: A Guide to Australian Design Now</i>, 2011, Object Gallery, Sydney, Australia.
+-
+thumb_width: 670px

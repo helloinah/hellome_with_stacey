@@ -3,12 +3,47 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-		<title>@name's Portfolio</title>
+		<title>In-ah Shin &lt;hello.inah@gmail.com&gt;</title>
 		<link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
 		<link rel="stylesheet" href="./public/docs/css/screen.css" type="text/css" media="screen"> 
         
 <link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="@root_path/public/docs/js/jquery.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/jquery-ui.custom.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/navigation.js"></script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+	
+	
+	$(".draggable").each(
+		function(intIndex) {
+			var l = Math.floor(Math.random() * ($("#draggable_container").width()-$(this).width()));
+			var t = Math.floor(Math.random() * ($("#draggable_container").height()-$(this).height()));
+
+			var z = Math.floor(Math.random() * 89);
+
+			$(this).css("left", l);
+			$(this).css("top", t);
+			$(this).css("z-index", z);
+			$(this).draggable();
+			
+		}
+	);
+	});
+
+</script>
+
+
+
+
+
+
+
 	</head>
+    
 	<body>
 			
 			  <div id="menu_container">
@@ -17,8 +52,8 @@
 @profession<br /></div>
 <div class="menu">
   
-  <p> <a href="./">
-    <input name="navigation" type="radio" checked="checked" value="text_navigation" /> 
+  <p> <a id="text_button_a" onClick="document.getElementById('text_button').checked='checked'">
+    <input id="text_button" name="navigation" type="radio" value="text_navigation" checked>
     t
     <font class="blank"> </font>
     e
@@ -26,32 +61,67 @@
     x<font class="blank"> </font>
     t</a>
     <br />
-    <a href="./index_image.html">
-      <input name="navigation" type="radio" value="image_navigation" onclick="location.href='index_image.html';" />
+    <a id="image_button_a" onClick="document.getElementById('image_button').checked='checked'">
+      <input id="image_button" name="navigation" type="radio" value="image_navigation"/>
       i<font class="blank"> </font>m<font class="blank"> </font>a<font class="blank"> </font>g<font class="blank"> </font>e
-      </a><br /><br /><input name="search" type="text"/><button type="submit">search</button>
+      </a> <br /> 
+      
+		<input name="sort" type="button" onClick="javascript:
+        
+var v = this.value;
+if(v=='Sort!'){        this.value='Mix!';
+
+$('#draggable_container').each(function(){$(this).css('width',95+'%');$(this).css('height','auto');});
+        $('.draggable').each(function(){$(this).css('left', 0); $(this).css('top', 0); $(this).css('z-index', 0); $(this).css('display','inline-block');$(this).css('position', 'relative');$(this).css('vertical-align', 'top'); $(this).css('margin-right', 20);$(this).css('margin-bottom', 20);});}
+        else if(v=='Mix!'){
+        this.value='Sort!';	
+           $('#draggable_container').each(function(){$(this).css('width', 1100);$(this).css('height', 300);});
+           
+$('.draggable').each(
+		function() {
+			var l = Math.floor(Math.random() * ($('#draggable_container').width()-$(this).width()));
+			var t = Math.floor(Math.random() * ($('#draggable_container').height()-$(this).height()));
+
+			var z = Math.floor(Math.random() * 89);
+
+			$(this).css('left', l);
+			$(this).css('top', t);
+			$(this).css('z-index', z);
+			
+		}
+	);
+        
+        }
+        " id="sort_button" value="Sort!" style="visibility:hidden;">      
+
   </p>
 </div>
   <div class="menu">
-:pages
+:pages<br><a href="./content/pdf_ver.pdf" target="_blank"> &darr; p d f
+</a>
 </div>
 
 
-<div class="menu"><p><a href="index_en.html">e<font class="blank"> </font>n</a> | <a href="index_kr.html">k<font class="blank"> </font>r</a>    </p><br />
+<div class="menu"><input name="search" type="text"/><button type="submit" style="width:50px; margin-left:5px;">Search</button>
 </div>
 
  </div>
-			 <div class="entry_container"> 
+			 <div id="entry_container"> 
 
             	:category_lists
 			
             </div>
 		</div>
-        
-        <div class="footer">This site is last updated on @site_updated<br>
-            &copy; Copyright @name @current_year <a class="atom-rss" href="@root_path/?/feed/">RSS</a>
-				<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></div>
-                
-                
+        <div id="footer_container">
+        <div class="footer">
+           &copy; Copyright_In-ah Shin_@current_year<br>
+  & Content managed by_<a href="http://www.staceyapp.com" target="_blank">Stacey</a>	 </div>
+   </div>             
+   
+   <div id='draggable_container' style="visibility:hidden;">
+
+            	:category_lists_image
+			
+            </div>
 	</body>
 </html>

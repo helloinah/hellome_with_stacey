@@ -1,0 +1,16 @@
+title: VARIOUS POSTERS
+-
+date: 2005
+-
+description: Talking with type
+-
+size: 292mm x 420mm
+-
+content: 
+Typographic exercise focusing on conveying the message through the use of typographic techniques.
+-
+keywords: PRINT,POSTER,TYPOGRAPHY
+-
+project_color: #808080
+-
+thumb_width: 210px

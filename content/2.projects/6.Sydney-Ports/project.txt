@@ -1,0 +1,17 @@
+title: Sydney Ports
+-
+date: 2009 - 2010
+-
+content: Pictogram and map design for Sydney ports signage system. Sydney Port has undergone an expansion and as a part of their program they have taken the migratory birds in to their concern. The signage system was developed to inform the audience of those environmental factors and also to increase awareness and protect them. 
+
+-
+keywords: WAYFINDING & SIGNAGE
+-
+description: Inform, Protect and Invite.
+-
+size: -
+
+-
+awards: Project from <a href="http://www.deucedesign.com.au" target="_blank">Deuce Design</a>
+-
+thumb_width: 210px

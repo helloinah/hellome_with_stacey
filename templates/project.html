@@ -3,31 +3,91 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-		<title>@title, @name's Portfolio</title>
+		<title>@title, In-ah Shin +61 406 92 1117 hello.inah@gmail.com</title>
 		<link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
 		<link rel="stylesheet" href="@root_path/public/docs/css/screen.css" type="text/css" media="screen"> 
+
         <link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
 	
     	
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="@root_path/public/docs/js/jquery.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/jquery-ui.custom.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/navigation.js"></script>
+
 
 <script type="text/javascript">
+
 $(document).ready(function(){
-	$(".draggable").each(
+	$("img.draggable_images").each(
 		function(intIndex) {
-			var l = Math.floor(Math.random() * ($("#draggable_container").width()-$(this).width()));
-			var t = Math.floor(Math.random() * $("#draggable_container").height());
-			$(this).css("left", l);
-			$(this).css("top", t);
 			$(this).draggable();
+			var a = 210;
+			var b = 440;
+			var c = 630;
+			var i = $(this).width();
+			var x = Math.floor(Math.random() * 4);
+			if(x == 1) {
+				$(this).css("width", a);
+				$(this).parent().css("width", $(this).width());
+				}
+			else if(x == 2){
+				$(this).css("width", b);
+				$(this).parent().css("width", $(this).width());
+				} 
+			else if(x == 3){
+					if(i > c){$(this).css("width", c);
+						$(this).parent().css("width", c);}
+					else if(i < c){$(this).css("width", b);
+							$(this).parent().css("width", b);			}
+				}
+			}
 			
-		}
+		
 	);
+	$('object.draggable_images').each(
+	function(setdivsize){	 
+		var x = $(this).attr('width');
+		var y = $(this).attr('height');
+		$(this).parent().css("width", x);
+		$(this).parent().css("height", y);
+
+		}
+		);
+	$('div.draggable_html').each(
+	function(intIndex){
+		$(this).draggable();
+		$(this).css("width", $('#vimeo').attr('width'));
+		$(this).css("height", $(this).height());
+	}
+	);
+	// $('div.draggable_2').each(
+	// function(drag_resize){
+	//	$(this).draggable();
+	//	$(this).resizable({ alsoResize: $(this).children(), maxHeight: 600, maxWidth:670});
+		
+		// alert($(this).height());
+		// why 18?
+		
+	//	});
+	  	
+	$(document).ready(function(){
+			});
+	
+	$("#sort_button").click(function(){
+		location.reload();
+		});
 });
+	
+
 </script>
-    
-    
+
+      
+	  
+
+	 
+
     </head>
 	<body>
 					  <div id="menu_container">
@@ -35,9 +95,8 @@ $(document).ready(function(){
 <a href="mailto:hello.inah@gmail.com">@name</a></strong><br />
 @profession<br /></div>
 <div class="menu">
-  
-  <p> <a href="./">
-    <input name="navigation" type="radio" checked="checked" value="text_navigation" /> 
+ <p> <a id="text_button_a" onClick="document.getElementById('text_button').checked='checked'">
+    <input id="text_button" name="navigation" type="radio" value="text_navigation" checked>
     t
     <font class="blank"> </font>
     e
@@ -45,59 +104,64 @@ $(document).ready(function(){
     x<font class="blank"> </font>
     t</a>
     <br />
-    <a href="index_en_image.html">
-      <input name="navigation" type="radio" value="image_navigation" onclick="location.href='file:///Users/Aiyah/hellome/hellome_ver2/index_en_image.html';" />
+    <a id="image_button_a" onClick="condition=1;">
+      <input id="image_button" name="navigation" type="radio" value="image_navigation"/>
       i<font class="blank"> </font>m<font class="blank"> </font>a<font class="blank"> </font>g<font class="blank"> </font>e
-      </a><br /><br /><input name="search" type="text"/><button type="submit">search</button>
+      </a> <br /> 
+      
+      
+       <input id="sort_button" type="button" value="SORT!" class="sort-button">
+
+
   </p>
 </div>
   <div class="menu">
-:pages
+:pages<br><a href="./content/pdf_ver.pdf" target="_blank"> &darr; p d f
+</a>
 </div>
 
 
-<div class="menu"><p><a href="index_en.html">e<font class="blank"> </font>n</a> | <a href="index_kr.html">k<font class="blank"> </font>r</a>    </p><br />
+<div class="menu"><input name="search" type="text"/><button type="submit">search</button><br />
 </div>
 
  </div>
  
  
  <div class="single_entry_title">
-<table width="200" border="0" cellpadding="5px">
+<table width="210" border="0" cellpadding="5px">
   <tr>
-    <td class="category_2" style="border-bottom-style:dashed; border-bottom-color:#000; border-bottom-width:1px;"> @keywords / @date / <br />
-<font color="#000" style=" background-color:@project_color">@title<br /></font>
-<br />
-@size<br />
-
+    <td style="border-bottom-style:dashed; border-bottom-color:#000; border-bottom-width:1px; padding-bottom:10px;"> <font style="font-size:13.5px;background-color:@project_color;text-transform:uppercase;">@title<br /></font>@date<br /><br /><font class="category_2"> @awards</font>
 </td>
   </tr>
   <tr>
 
-    <td class="content"  style="border-bottom-style:dashed; border-bottom-color:#000; border-bottom-width:1px;"> @content
+    <td class="content"  style="border-bottom-style:dashed; border-bottom-color:#000; border-bottom-width:1px; "> @content
 
 </td>
   </tr>
   <tr>
-    <td><br />
-<a href="javascript:history.back()"><- Back</a></td>
+    <td>
+      <p><font class="category_2"> @keywords /
+
+@size / </font><br /><br />
+      <a href="javascript:history.back()">⌫ BACK</a></p></td>
   </tr>
 </table>
-
-
-
 </div>
-<div id='draggable_container_2'>
+
+<div id="draggable_container_2">
 
 				:media
-			
+		
 </div>            
             
             
-			<div class="footer">This site is last updated on @site_updated<br>
-            &copy; Copyright @name @current_year <a class="atom-rss" href="@root_path/?/feed/">RSS</a>
-				<em>Content managed by <a href="http://www.staceyapp.com">Stacey</a></em></div>
+			
                 
-		</div>
+		 <div id="footer_container">
+        <div class="footer">
+           &copy; Copyright_In-ah Shin_@current_year<br>
+  & Content managed by_<a href="http://www.staceyapp.com" target="_blank">Stacey</a>	 </div>
+   </div>  
 	</body>
 </html>

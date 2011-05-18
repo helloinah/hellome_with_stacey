@@ -1,0 +1,16 @@
+title: VERNACULAR TYPE
+-
+date: 2005
+-
+description: Vernacular type
+-
+size: 105mm x 152mm
+-
+content: 
+Looking at the typography in everyday life. 
+-
+keywords: PHOTOGRAPHY
+-
+project_color: #00FFFF
+-
+thumb_width: 210px

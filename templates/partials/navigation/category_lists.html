@@ -2,7 +2,7 @@ foreach $root do
   if $children do
     foreach $children do
     		<div class="entry" onclick="location.href='@url';">
-		<div class="description"  onMouseover="this.style.background = 'url(@thumb) center center'" onmouseout="this.style.background = 'none'"> @description
+		<div class="description" onMouseover="this.style.background = 'url(@thumb) 25% 50%'" onmouseout="this.style.background = 'none'"><p style="vertical-align:middle"><span style="background-color:#fff;">@description</span></p>
 		</div >
         <div class="category">@keywords / @date / @title </div>
 	</div>

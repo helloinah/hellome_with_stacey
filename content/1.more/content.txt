@@ -1,0 +1,55 @@
+title: &rarr; a b o u t
+-
+content_1:
+<p>a b o u t &rarr; SITE</p>
+
+<p> CONTENT MANAGEMENT<BR />  <a href="http://www.staceyapp.com">Stacey</a> </p>
+<p>TYPEFACE<BR /> "Inconsolata" by  <a href="http://www.levien.com/type/myfonts/inconsolata.html">Ralph Levien</a>, via <a href="http://www.google.com/webfonts/family?family=Inconsolata">Googlefonts</a>. </p> 
+<p>jQuery UI 1.8.11, Library v1.5.1 by John Resig - full copyright credit inside .js</p>
+<p>
+LAST UPDATED <BR /> @site_updated </p> <p> &copy; Copyright <BR /> @name @current_year <BR />unless otherwise indicated.
+</p>
+
+-
+content_2: 
+<p>a b o u t &rarr;  In-ah</p>
+<p>
+I am a graphic designer based in Sydney, Australia.<br />
+&#9998;. <a href="mailto:hello.inah@gmail.com">hello.inah@gmail.com</a><br /> 
+&#9742;. +61 406 92 1117. </p>
+
+<p>Here's some background on me. </p>
+<p> &#9602;&#9603; EDUCATION </p><p>
+<ul>2010 <a href="http://handbook.uts.edu.au/courses/c10060.html" target="_blank">University of Technology, Sydney</a>,<br /> 
+&nbsp;&nbsp;&nbsp;&nbsp; Combined degree of B. Arts in International studies <br />
+&nbsp;&nbsp;&nbsp;&nbsp; & B. Design in Visual Communication</p><p>
+
+2008 <a href="http://www.design.polimi.it/new/pages.php?pagina=76" target="_blank">Politecnico di Milano</a>, <br />
+&nbsp;&nbsp;&nbsp;&nbsp; Design della Communicazione
+</ul></p> <p>
+____ WORK </p><p>
+<ul>2010. 10 - 2010. 12. UTS Grauation Show identity design team</ul>
+<ul>2009. 08 - 2010. 10. <a href="http://www.deucedesign.com.au" target="_blank">Deuce Design</a><br />
+2009. 06. Revolver Film</ul></p><p>
+
+____ AWARDS & EXHIBITION</p>
+
+<ul>
+2011 Finalist - Emerging Talent, <br />
+&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.createawards.com.au/shortlisted/round-one/in-ah-shin/" target="_blank">
+2011 Qantm Create Design awards</a>,<br />
+&nbsp;&nbsp;&nbsp;&nbsp; Australia<br /><br />
+
+2011 Another: Being on the other side of the River<br />
+&nbsp;&nbsp;&nbsp;&nbsp; Finalist - Design for Communication, <br />
+&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.artabase.net/exhibition/3015-annual-manual-a-guide-to-australian-design-now" target="_blank">Annual Manual: A Guide to Australian Design Now</a>,<br />
+&nbsp;&nbsp;&nbsp;&nbsp; Sydney, Australia<br /><br />
+2009 Eco-(un)-Friendly Book <br />
+&nbsp;&nbsp;&nbsp;&nbsp; Korean Institute of Design Promotion award,<br />
+&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://en.red-dot.org/4284.html?&cHash=f47c983c154e4dd004d28da57290b1ad&detail=377" target="_blank">Bisang 601 Art Book Project</a>, Seoul, Korea<br /><br />
+2008 Bangkok Elvis featured on <br />
+&nbsp;&nbsp;&nbsp;&nbsp; 'Decorate with Type' 
+by Harry C Pears <br /><br />
+2005 Tonybee Wilson Typography Award, <br />&nbsp;&nbsp;&nbsp;&nbsp; Finalist, Sydney, Australia<br /><br />
+2004 Mr.Box web & Interaction design <br />
+&nbsp;&nbsp;&nbsp;&nbsp; exhibited at ARTEXPRESS, Sydney, Australia</ul><br /><br /><br />

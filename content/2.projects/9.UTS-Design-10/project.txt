@@ -1,0 +1,19 @@
+title: UTS DESIGN `10
+-
+description: The show of<br />work<br />in<br />progress
+-
+date: 2010
+-
+size: The package includes Print, Web and Signage system.
+-
+content: 
+<p>The challenge in designing the identity for the graduate show was defining the show not knowing the actual works that will be on display. So rather, the identity looked at the UTS school of design practice and how it sets itself apart from other design institutions, as the show will be the sum of this design practice. </p>
+<p>The result is an evolving, pulsating pattern of concentric circles reflecting the interconnected practice across different disciplines within the design school that is ever-progressing.</p>
+-
+keywords: EXHIBITION IDENTITY
+-
+project_color: #EEEEEE
+-
+awards:  Collaborated with Sandhya Sharma, James Stuart, Golnar Roshan, Andrew Lee, Nell Campbell, Rebecca Patis, Dan Symond and UTS events team.
+-
+thumb_width: 210px
