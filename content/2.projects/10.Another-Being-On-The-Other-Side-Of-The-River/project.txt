@@ -4,7 +4,7 @@ description: Engaging an Empathy
 -
 date: 2010
 -
-size: A&B 143mm x 230mm, AB 270mm x 432mm 
+size: A&B 143mm x 230mm, AB 270mm x 432mm / Digital & Risograph Print / Lion-coat paper / Typeface: Regime, Avenir, Yoon Gothic / Editing & Translation by In-ah Shin, Andrew Lee & Dorothy Jung  
 -
 content: 
 <p>The project Another: Being on the Other Side of the River is designed to engage the general public about the violations of human rights committed against North Koreans. </p>

@@ -60,6 +60,9 @@ a:hover {
 	padding-right:30%;
 	}
 	
+	.description p{
+		margin-bottom:0px;
+	}
 	
 	.category {
 	color:#999;
@@ -213,8 +216,7 @@ position:fixed;
     width: 1100px;
 	height: 600px;
 	position:absolute;
-	background:#999;
-}
+	}
 
 /* for detailed page ****************************/
 #draggable_container_2 {
@@ -232,6 +234,9 @@ position:fixed;
 	cursor:move;
 	display:inline-block;
 	vertical-align:top;
+	}
+.draggable_2:hover {
+	z-index:100;
 	}
 
 .draggable_images{

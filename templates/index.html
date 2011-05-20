@@ -71,15 +71,20 @@ $(document).ready(function(){
 var v = this.value;
 if(v=='Sort!'){        this.value='Mix!';
 
-$('#draggable_container').each(function(){$(this).css('width',95+'%');$(this).css('height','auto');});
+$('#draggable_container').each(function(){$(this).css('width',95+'%');});
         $('.draggable').each(function(){$(this).css('left', 0); $(this).css('top', 0); $(this).css('z-index', 0); $(this).css('display','inline-block');$(this).css('position', 'relative');$(this).css('vertical-align', 'top'); $(this).css('margin-right', 20);$(this).css('margin-bottom', 20);});}
         else if(v=='Mix!'){
         this.value='Sort!';	
-           $('#draggable_container').each(function(){$(this).css('width', 1100);$(this).css('height', 300);});
+           $('#draggable_container').each(function(){$(this).css('width', 1100);});
            
-$('.draggable').each(
-		function() {
-			var l = Math.floor(Math.random() * ($('#draggable_container').width()-$(this).width()));
+		$('.draggable').each(
+			function() {
+    		 $(this).css('display','block');
+             
+             $(this).css('position', 'absolute');
+			
+            
+            var l = Math.floor(Math.random() * ($('#draggable_container').width()-$(this).width()));
 			var t = Math.floor(Math.random() * ($('#draggable_container').height()-$(this).height()));
 
 			var z = Math.floor(Math.random() * 89);

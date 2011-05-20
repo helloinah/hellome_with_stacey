@@ -5,24 +5,20 @@
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title>@title, In-ah Shin +61 406 92 1117 hello.inah@gmail.com</title>
 		<link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
-		<link rel="stylesheet" href="@root_path/public/docs/css/screen.css" type="text/css" media="screen"> 
-
-        <link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
-	
+		<link rel="stylesheet" href="@root_path/public/docs/css/screen.css" type="text/css" media="screen"> 	
     	
         <link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
 
 <script type="text/javascript" src="@root_path/public/docs/js/jquery.min.js"></script>
-		<script type="text/javascript" src="@root_path/public/docs/js/jquery-ui.custom.min.js"></script>
 		<script type="text/javascript" src="@root_path/public/docs/js/navigation.js"></script>
-
+				<script type="text/javascript" src="@root_path/public/docs/js/resize_drag/jquery-ui-1.8.12.custom.min.js"></script>
+		
 
 <script type="text/javascript">
 
 $(document).ready(function(){
 	$("img.draggable_images").each(
 		function(intIndex) {
-			$(this).draggable();
 			var a = 210;
 			var b = 440;
 			var c = 630;
@@ -31,16 +27,22 @@ $(document).ready(function(){
 			if(x == 1) {
 				$(this).css("width", a);
 				$(this).parent().css("width", $(this).width());
+				$(this).parent().css("height", "auto");
 				}
 			else if(x == 2){
 				$(this).css("width", b);
 				$(this).parent().css("width", $(this).width());
+				$(this).parent().css("height", "auto");
+
 				} 
 			else if(x == 3){
 					if(i > c){$(this).css("width", c);
-						$(this).parent().css("width", c);}
+						$(this).parent().css("width", c);
+						$(this).parent().css("height", "auto");
+}
 					else if(i < c){$(this).css("width", b);
-							$(this).parent().css("width", b);			}
+							$(this).parent().css("width", b);					$(this).parent().css("height", "auto");
+		}
 				}
 			}
 			
@@ -62,18 +64,17 @@ $(document).ready(function(){
 		$(this).css("height", $(this).height());
 	}
 	);
-	// $('div.draggable_2').each(
-	// function(drag_resize){
-	//	$(this).draggable();
-	//	$(this).resizable({ alsoResize: $(this).children(), maxHeight: 600, maxWidth:670});
+	$('div.draggable_2').each(
+	function(){
+		$(this).css('backround', '#999');
+		$(this).draggable();
+		$(this).resizable({ 
+
+		alsoResize: $(this).children(), maxHeight: 600, maxWidth:670});
 		
-		// alert($(this).height());
-		// why 18?
-		
-	//	});
+		});
 	  	
-	$(document).ready(function(){
-			});
+
 	
 	$("#sort_button").click(function(){
 		location.reload();

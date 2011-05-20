@@ -14,12 +14,13 @@ LAST UPDATED <BR /> @site_updated </p> <p> &copy; Copyright <BR /> @name @curren
 content_2: 
 <p>a b o u t &rarr;  In-ah</p>
 <p>
-I am a graphic designer based in Sydney, Australia.<br />
+I am a graphic designer based in Sydney, Australia. </p>
+You can contact me via; <br />
 &#9998;. <a href="mailto:hello.inah@gmail.com">hello.inah@gmail.com</a><br /> 
 &#9742;. +61 406 92 1117. </p>
 
 <p>Here's some background on me. </p>
-<p> &#9602;&#9603; EDUCATION </p><p>
+<p> ____ EDUCATION </p><p>
 <ul>2010 <a href="http://handbook.uts.edu.au/courses/c10060.html" target="_blank">University of Technology, Sydney</a>,<br /> 
 &nbsp;&nbsp;&nbsp;&nbsp; Combined degree of B. Arts in International studies <br />
 &nbsp;&nbsp;&nbsp;&nbsp; & B. Design in Visual Communication</p><p>
