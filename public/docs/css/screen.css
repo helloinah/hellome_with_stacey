@@ -27,9 +27,6 @@ body {
     font-size: 13px;
     line-height: 18px;
 	orphans: 3;
-	/*overflow-x: scroll;*/
-	overflow-x: hidden; /*test*/
-	overflow-y: auto;
 }
 
 a { 
