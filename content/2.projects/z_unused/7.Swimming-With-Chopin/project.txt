@@ -1,0 +1,19 @@
+title: Swimming with Chopin and more
+-
+description: Stories of Han
+-
+date: 2010
+-
+content: <p> Co-editing and translating the script for short films by Andrew Lee; <i> Swimming with Chopin </i> and <i> Second from the Right</i>. The stories explore Korean traditional concept of <i> Han</i>. Thus the translating the script in to Korean </p>
+
+-
+keywords: OTHER
+
+-
+size: Translation, editing / 7 min short film
+-
+awards: Director: <a href="http://www.undi.co" target="_balnk">Andrew Lee</a> 
+-
+thumb_width: 210px
+-
+project_color: #AA99CC

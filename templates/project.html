@@ -3,101 +3,169 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-		<title>@title, In-ah Shin +61 406 92 1117 hello.inah@gmail.com</title>
+		<title>In-ah Shin &lt;hello.inah@gmail.com&gt;</title>
 		<link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
 		<link rel="stylesheet" href="@root_path/public/docs/css/screen.css" type="text/css" media="screen"> 	
-    	
+    			<link rel="stylesheet" href="@root_path/public/docs/js/resize_drag/css/ui-lightness/jquery-ui-1.8.12.custom.css" type="text/css" media="screen"> 	
+<link href='http://fonts.googleapis.com/css?family=Lekton:regular,italic,bold' rel='stylesheet' type='text/css'>
+
         <link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
 
 <script type="text/javascript" src="@root_path/public/docs/js/jquery.min.js"></script>
-		<script type="text/javascript" src="@root_path/public/docs/js/navigation.js"></script>
 				<script type="text/javascript" src="@root_path/public/docs/js/resize_drag/jquery-ui-1.8.12.custom.min.js"></script>
 		
+     
 
 <script type="text/javascript">
 
-$(document).ready(function(){
-	$("img.draggable_images").each(
-		function(intIndex) {
-			var a = 210;
-			var b = 440;
-			var c = 630;
-			var i = $(this).width();
-			var x = Math.floor(Math.random() * 4);
-			if(x == 1) {
-				$(this).css("width", a);
-				$(this).parent().css("width", $(this).width());
-				$(this).parent().css("height", "auto");
-				}
-			else if(x == 2){
-				$(this).css("width", b);
-				$(this).parent().css("width", $(this).width());
-				$(this).parent().css("height", "auto");
 
-				} 
-			else if(x == 3){
-					if(i > c){$(this).css("width", c);
-						$(this).parent().css("width", c);
-						$(this).parent().css("height", "auto");
-}
-					else if(i < c){$(this).css("width", b);
-							$(this).parent().css("width", b);					$(this).parent().css("height", "auto");
-		}
+$(document).ready(function () { 
+
+
+$(".draggable_2").mouseover(function() {
+ 		var wi = $("img", this).css("width");
+		if(wi < $("img", this).css("max-width")){
+		$(this).css("cursor","-webkit-zoom-in");}
+
+		if(wi == $("img", this).css("max-width")){
+		$(this).css("cursor","-webkit-zoom-out");}
+
+  }
+).click(function() {
+	var wi = $("img", this).css("width");
+	var wi_max = $("img", this).css("max-width");
+
+	
+	if(wi < wi_max){
+				$("img", this).css("width", wi_max);
+				$(this).css("width",$("img", this).css("width"));
+				$(this).css("height",$("img", this).css("height"));
+				
+				
 				}
-			}
+	
+		else if(wi == wi_max){
+			$("img",this).css("width",335);
+			$(this).css("width",$("img",this).width());
+			$(this).css("height",$("img",this).height());
 			
-		
+			}
+  }
+);
+	
+$("img.draggable_images").each(
+		function() {
+		$(this).css("width", 100+'%');	
+			}
 	);
-	$('object.draggable_images').each(
-	function(setdivsize){	 
-		var x = $(this).attr('width');
-		var y = $(this).attr('height');
-		$(this).parent().css("width", x);
-		$(this).parent().css("height", y);
+	$("obj.draggable_images").each(
+		function() {
+			$(this).parent().css({width:$(this).attr('width'), height:$(this).attr('height')});
+			}
+	);
+	
+	$('div.draggable_2').each(
+	
+	
+	function(){
+		// $(this).resizable({
+		//			aspectRatio: true,
+		//			minWidth:210
+		//			}
+		// );
+		
+		
+			});
+				
+				
+	$('div.draggable_2').each(
 
-		}
-		);
-	$('div.draggable_html').each(
-	function(intIndex){
-		$(this).draggable();
-		$(this).css("width", $('#vimeo').attr('width'));
-		$(this).css("height", $(this).height());
+			
+		function() {
+			var a = 210;
+			var b = 335;
+			var c = 440;
+			var i = $(this).width();
+			var d = "bottom";
+			var e = "middle";
+			var g = "top";
+			var x = Math.floor(Math.random() * 3);
+			
+			if(x == 0) {
+				$(this).css("width", a);
+				
+				}
+			else if(x == 1){
+				$(this).css("width", b);} 
+			else if(x == 2){
+					$(this).css("width", c);}
+		
+				});
+		
+	  	
+ $(window).load(function(){
+	 
+	$("img.draggable_images").each(
+	function(){
+	var image = $(this);
+	var image2 = $(this).clone();
+	image2.appendTo('#store');
+	image2.removeAttr('class');
+	image2.css('width', 'auto');
+	$(this).css('max-width',image2.width());
+	$(this).css('max-neight',image2.height());
+	$(this).parent().css('max-width',image2.width());
+		$(this).parent().css('max-height',image2.height());
+
+
+	image2.remove();
+	
+
+
+	
+
 	}
 	);
-	$('div.draggable_2').each(
-	function(){
-		$(this).css('backround', '#999');
-		$(this).draggable();
-		$(this).resizable({ 
-
-		alsoResize: $(this).children(), maxHeight: 600, maxWidth:670});
-		
-		});
-	  	
-
 	
-	$("#sort_button").click(function(){
-		location.reload();
-		});
-});
 	
+		});
+	
+	
+	});		
 
 </script>
 
       
 	  
+ <script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23959091-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 	 
 
     </head>
 	<body>
-					  <div id="menu_container">
+					 <!--memu start-->
+
+			  <div id="menu_container">
               <div class="menu"><strong>
 <a href="mailto:hello.inah@gmail.com">@name</a></strong><br />
 @profession<br /></div>
+
+
 <div class="menu">
- <p> <a id="text_button_a" onClick="document.getElementById('text_button').checked='checked'">
-    <input id="text_button" name="navigation" type="radio" value="text_navigation" checked>
+  
+  <p> <a id="text_button_a" onClick="document.getElementById('text_button').checked='checked'" href="/">
+    <input id="text_button" name="navigation" type="radio" onClick="window.location='/'" value="text_navigation">
     t
     <font class="blank"> </font>
     e
@@ -105,30 +173,31 @@ $(document).ready(function(){
     x<font class="blank"> </font>
     t</a>
     <br />
-    <a id="image_button_a" onClick="condition=1;">
-      <input id="image_button" name="navigation" type="radio" value="image_navigation"/>
+    <a id="image_button_a" onClick="document.getElementById('image_button').checked='checked'" href="./?/Image_index/">
+      <input id="image_button" name="navigation" type="radio" onClick="window.location='./?/Image_index/'" value="image_navigation"/>
       i<font class="blank"> </font>m<font class="blank"> </font>a<font class="blank"> </font>g<font class="blank"> </font>e
-      </a> <br /> 
-      
-      
-       <input id="sort_button" type="button" value="SORT!" class="sort-button">
-
-
-  </p>
+      </a> <br />&nbsp;&nbsp;&nbsp;↳if $siblings do  :next-page endif
+  
+</p>
 </div>
+
   <div class="menu">
-:pages<br><a href="./content/pdf_ver.pdf" target="_blank"> &darr; p d f
-</a>
+<a href="./?/more/">&rarr; a<font class="blank"> </font>b<font class="blank"> </font>o<font class="blank"> </font>u<font class="blank"> </font>t</a>
+<br>    <a href="http://inah-shin.com/content/Inahshin_pdf.pdf" target="_blank"> &darr; p<font class="blank"> </font>d<font class="blank"> </font>f </a> </div>
+
+
+
+<div class="menu">
 </div>
 
 
-<div class="menu"><input name="search" type="text"/><button type="submit">search</button><br />
-</div>
 
  </div>
  
- 
+ <!--menu ends-->
+
  <div class="single_entry_title">
+ 
 <table width="210" border="0" cellpadding="5px">
   <tr>
     <td style="border-bottom-style:dashed; border-bottom-color:#000; border-bottom-width:1px; padding-bottom:10px;"> <font style="font-size:13.5px;background-color:@project_color;text-transform:uppercase;">@title<br /></font>@date<br /><br /><font class="category_2"> @awards</font>
@@ -150,7 +219,7 @@ $(document).ready(function(){
 </table>
 </div>
 
-<div id="draggable_container_2">
+<div class="draggable_container_2">
 
 				:media
 		
@@ -160,9 +229,11 @@ $(document).ready(function(){
 			
                 
 		 <div id="footer_container">
-        <div class="footer">
-           &copy; Copyright_In-ah Shin_@current_year<br>
-  & Content managed by_<a href="http://www.staceyapp.com" target="_blank">Stacey</a>	 </div>
+        <div class="footer"><span style="	background-color:#fff;
+">
+           &copy; Copyright_In-ah Shin_@current_year <br />
+  & Content managed by_<a href="http://www.staceyapp.com" target="_blank">Stacey</a></span>	 </div>
    </div>  
+   <div id="store" style="visibility:hidden"></div>
 	</body>
 </html>

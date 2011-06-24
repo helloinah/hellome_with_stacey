@@ -2,7 +2,7 @@ foreach $root do
   if $children do
     foreach $children do
     
-    <div class="draggable" ondblclick="location.href='@url';" onmouseover="this.style.zIndex='100'" onmouseout="this.style.zIndex='1'"> <img src="@thumb" width="@thumb_width" height="auto" />
+    <div class="draggable" ondblclick="location.href='@url';"> <img src="@thumb" width="@thumb_width" height="auto" /><div id="img_title" style="visibility:hidden">@title</div>
 		</div >
        
  

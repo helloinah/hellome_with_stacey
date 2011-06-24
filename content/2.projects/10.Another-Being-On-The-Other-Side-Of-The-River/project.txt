@@ -1,19 +1,19 @@
 title: Another: Being on the Other Side of the River
 -
-description: Engaging an Empathy
+description: What can <br /> we do to help...
 -
 date: 2010
 -
-size: A&B 143mm x 230mm, AB 270mm x 432mm / Digital & Risograph Print / Lion-coat paper / Typeface: Regime, Avenir, Yoon Gothic / Editing & Translation by In-ah Shin, Andrew Lee & Dorothy Jung  
+size: A&B 143mm x 230mm, AB 270mm x 432mm / Digital & Risograph Print / Lion-coat paper / Editing & Translation by In-ah Shin, Andrew Lee & Dorothy Jung / Typeface: Regime, Avenir, Yoon Gothic  
 -
 content: 
-<p>The project Another: Being on the Other Side of the River is designed to engage the general public about the violations of human rights committed against North Koreans. </p>
-<p>Through the use of a script divided into two books and a supplementary visual reference book, the project aims to create an embodied experience of &lsquo;being&rsquo; North Korean to enhance empathy and understanding. The script itself is a collection of first hand experiences of North Korean escapees.</p>
+<p>This project is designed to engage the general public about the violations of human rights committed against North Koreans. </p>
+<p>Through the use of a script divided into two books and a supplementary visual reference book, the project aims to create an embodied and shared experience of &lsquo;being&rsquo; North Korean. The script itself is a collection of first hand experiences of North Korean escapees. </p>
 -
-keywords: PRINT,INTERACTIVE
+keywords: PRINT,INTERACTIVE,RESEARCH
 -
 project_color: #FF0000
 -
-awards: &#10041; FINALIST, <i>Annual Manual: A Guide to Australian Design Now</i>, 2011, Object Gallery, Sydney, Australia.
+awards: &#10041; FINALIST, <a href="http://www.artabase.net/exhibition/3015-annual-manual-a-guide-to-australian-design-now"><i>Annual Manual: A Guide to Australian Design Now</i></a>, 2011, Object Gallery, Sydney, Australia.
 -
 thumb_width: 670px

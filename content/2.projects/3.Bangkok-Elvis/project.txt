@@ -4,7 +4,7 @@ date: 2005-2006
 -
 content: 
 <p>&lsquo;Bangkok Elvis&rsquo; is a heavy display font featuring the characteristics of Thai script and culture.</p>
-<p>As both Roman and Thai scripts were foreign to me, <br />I studied them as images first then combined the forms. This resulted in the font encompassing both characteristics of serif & san-serif, Roman & Asian, contemporary & traditional.</p>
+<p>At the time, as both Roman and Thai scripts were foreign to me, I studied them as images first then combined the forms. This resulted in the font encompassing both characteristics of serif & san-serif, Roman & Asian, contemporary & traditional.</p>
 -
 keywords: FONT DESIGN
 -

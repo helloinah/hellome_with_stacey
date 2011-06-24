@@ -3,21 +3,51 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-		<title>@title, In-ah Shin +61 406 92 1117 hello.inah@gmail.com</title>
+		<title>In-ah Shin &lt;hello.inah@gmail.com&gt;</title>
 		<link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
 		<link rel="stylesheet" href="@root_path/public/docs/css/screen.css" type="text/css" media="screen"> 
-          
+        <link href='http://fonts.googleapis.com/css?family=Lekton:regular,italic,bold' rel='stylesheet' type='text/css'>
+
+          <script>$(document).ready(function(){
+		$(document).ready(function(){
+$('#text_button').change(function () {
+		   window.location = "/";
+
+        });
+	$('#image_button').change(function () {
+		    window.location = "./?/Image_index/";
+
+        });});});
+		  </script>
 <link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
-	</head>
+	
+     <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23959091-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
 	<body>
-	<div id="menu_container">
+<!--memu start-->
+
+			  <div id="menu_container">
               <div class="menu"><strong>
 <a href="mailto:hello.inah@gmail.com">@name</a></strong><br />
 @profession<br /></div>
+
+
 <div class="menu">
   
-  <p> <a href="./">
-    <input name="navigation" type="radio" value="text_navigation" /> 
+  <p> <a id="text_button_a" onClick="document.getElementById('text_button').checked='checked'" href="/">
+    <input id="text_button" name="navigation" type="radio" onClick="window.location='/'" value="text_navigation">
     t
     <font class="blank"> </font>
     e
@@ -25,36 +55,29 @@
     x<font class="blank"> </font>
     t</a>
     <br />
-    <a href="./">
-      <input name="navigation" type="radio" value="image_navigation" onclick="" />
+    <a id="image_button_a" onClick="document.getElementById('image_button').checked='checked'" href="./?/Image_index/">
+      <input id="image_button" name="navigation" type="radio" onClick="window.location='./?/Image_index/'" value="image_navigation"/>
       i<font class="blank"> </font>m<font class="blank"> </font>a<font class="blank"> </font>g<font class="blank"> </font>e
-      </a>
+      </a> <br /> 
   </p>
 </div>
   <div class="menu">
-:pages<br>
-<a href="./content/pdf_ver.pdf" target="_blank"> &darr; p d f
-</a>
-</div>
+<a href="./?/more/">&rarr; a<font class="blank"> </font>b<font class="blank"> </font>o<font class="blank"> </font>u<font class="blank"> </font>t</a>
+<br>     <a href="http://inah-shin.com/content/Inahshin_pdf.pdf" target="_blank"> &darr; p<font class="blank"> </font>d<font class="blank"> </font>f </a> </div>
 
 
-<div class="menu"><input name="search" type="text"/><button type="submit"> Search</button>
-</div>
+
 
  </div>
  
- <div class="single_entry_title">
- @content_1
+ <!--menu ends-->
 
-</div>
-
-<div class="single_entry">
-          :images
-          @content_2
-          :pdfs
-			</div>
+ :html
 		
-			   
-		</div>
+		 <div id="footer_container">
+        <div class="footer">
+           &copy; Copyright_In-ah Shin_@current_year<br />
+  & Content managed by_<a href="http://www.staceyapp.com" target="_blank">Stacey</a>	 </div>
+   </div>  	   
 	</body>
 </html>

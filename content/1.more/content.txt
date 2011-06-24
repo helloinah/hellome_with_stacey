@@ -3,8 +3,8 @@ title: &rarr; a b o u t
 content_1:
 <p>a b o u t &rarr; SITE</p>
 
-<p> CONTENT MANAGEMENT<BR />  <a href="http://www.staceyapp.com">Stacey</a> </p>
-<p>TYPEFACE<BR /> "Inconsolata" by  <a href="http://www.levien.com/type/myfonts/inconsolata.html">Ralph Levien</a>, via <a href="http://www.google.com/webfonts/family?family=Inconsolata">Googlefonts</a>. </p> 
+<p> CONTENT MANAGEMENT<BR />  <a href="http://www.staceyapp.com" target="_blank">Stacey</a> </p>
+<p>TYPEFACE<BR /> "Inconsolata" by  <a href="http://www.levien.com/type/myfonts/inconsolata.html" target="_blank">Ralph Levien</a>, via <a href="http://www.google.com/webfonts/family?family=Inconsolata" target="_blank">Googlefonts</a>. </p> 
 <p>jQuery UI 1.8.11, Library v1.5.1 by John Resig - full copyright credit inside .js</p>
 <p>
 LAST UPDATED <BR /> @site_updated </p> <p> &copy; Copyright <BR /> @name @current_year <BR />unless otherwise indicated.
@@ -14,7 +14,7 @@ LAST UPDATED <BR /> @site_updated </p> <p> &copy; Copyright <BR /> @name @curren
 content_2: 
 <p>a b o u t &rarr;  In-ah</p>
 <p>
-I am a graphic designer based in Sydney, Australia. </p>
+I am a graphic designer based in Sydney, Australia. I love many aspects of graphic design but my focus mainly lies in using graphic design as a medium to collaborate with the audience.</p>
 You can contact me via; <br />
 &#9998;. <a href="mailto:hello.inah@gmail.com">hello.inah@gmail.com</a><br /> 
 &#9742;. +61 406 92 1117. </p>
@@ -29,7 +29,7 @@ You can contact me via; <br />
 &nbsp;&nbsp;&nbsp;&nbsp; Design della Communicazione
 </ul></p> <p>
 ____ WORK </p><p>
-<ul>2010. 10 - 2010. 12. UTS Grauation Show identity design team</ul>
+<ul>2010. 10 - 2010. 12. UTS Graduation Show identity design team</ul>
 <ul>2009. 08 - 2010. 10. <a href="http://www.deucedesign.com.au" target="_blank">Deuce Design</a><br />
 2009. 06. Revolver Film</ul></p><p>
 

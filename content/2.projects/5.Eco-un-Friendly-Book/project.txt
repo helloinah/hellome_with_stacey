@@ -5,17 +5,17 @@ date: 2009
 size: 210mm x 292mm / Inkjet Print / Hand-made Prototype Book
 -
 content: 
-<p>&lsquo;Eco-(un)-Friendly book&rsquo; requires each page to be torn off to be read. It tells the story of paper production in an educative yet satirical tone, inspired by the old Korean children&rsquo;s textbook illustration, characterised by utopian depiction of the everyday life.</p>
-<p>This irony of the book - the book hopes to be an eco-friendly source,whereby it is disposable - reflects the context of our waste andprompt audience to reflect on their &lsquo;acts&rsquo; toward the environmental issues. This interaction with the book illustrates literally the irreversible nature of our environment.
+<p>&lsquo;Eco-(un)-Friendly book&rsquo; requires each page to be torn off to be read. It tells a story of paper production in an educative yet satirical tone. The illustration style is inspired by the old Korean children&rsquo;s textbook illustrations, characterised by utopian depiction of everyday life.</p>
+<p>This irony of the book - the book hopes to be an eco-friendly source, whereby it is disposable - reflects the context of our waste and prompt audience to reflect on their unconscious acts toward the environmental issues. This interaction with the book illustrates literally the irreversible nature of our environment.
 </p>
 -
 keywords: PRINT
 - 
-description: Revealing the unconscious act
+description: Making a disposable book
 -
 thumb_width: 210px
 
 -
-project_color: green
+project_color: #D7EF23
 -
 awards: &#10041; Korean Institute of Design Promotion(KIDP) award,<a href="http://en.red-dot.org/4284.html?&cHash=f47c983c154e4dd004d28da57290b1ad&detail=377" target="_blank">Bisang 601 Art Book Project</a>, Seoul, South Korea

@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>In-ah Shin &lt;hello.inah@gmail.com&gt;</title>
+		<link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
+        <link href='http://fonts.googleapis.com/css?family=Lekton:regular,italic,bold' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="/public/docs/css/screen.css" type="text/css" media="screen"> 
+        
+<link href='http://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="@root_path/public/docs/js/jquery.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/jquery-ui.custom.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/navigation.js"></script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+	
+	$(document).ready(function(){
+	$('#text_button').change(function () {
+		   window.location = "/";
+
+        });
+	$('#image_button').change(function () {
+		    window.location = "./?/Image_index/";
+
+        });
+	$(".draggable").each(
+		function(intIndex) {
+			var l = Math.floor(Math.random() * ($("#draggable_container").width()-$(this).width()));
+			var t = Math.floor(Math.random() * ($("#draggable_container").height()-$(this).height()));
+
+			var z = Math.floor(Math.random() * 89);
+
+			$(this).css("left", l);
+			$(this).css("top", t);
+			$(this).css("z-index", z);
+			$(this).draggable();
+			
+		}
+	);
+	
+	
+	$(".draggable").mouseover(function(){
+				$("img", this).css("cursor","-webkit-grab");
+
+		});$(".draggable").mouseup(function(){
+				$("img", this).css("cursor","-webkit-grab");
+
+		});
+	$(".draggable").mousedown(function() {
+	
+		$("img", this).css("cursor","-webkit-grabbing");
+		var zvalue = $(this).css("z-index");
+		// get highest z-value
+		var max = Math.max.apply( null, $('#draggable_container').children('div')
+                                           .map(function(){
+                                               return $(this).css('z-index');
+                                           }).get() 
+                        );
+		//set highest z-value
+		if (zvalue <= max){
+			$(this).css('z-index', max+1);
+		
+
+		}
+
+  }
+);
+	});
+	
+	
+});
+
+</script>
+
+
+ <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23959091-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+	</head>
+    
+	<body>
+			
+			  <div id="menu_container">
+              <div class="menu"><strong>
+<a href="mailto:hello.inah@gmail.com">@name</a></strong><br />
+@profession<br /></div>
+<div class="menu">
+  
+  <p> <a id="text_button_a" onClick="document.getElementById('text_button').checked='checked'" href="/">
+    <input id="text_button" name="navigation" type="radio" value="text_navigation">
+    t
+    <font class="blank"> </font>
+    e
+    <font class="blank"> </font>
+    x<font class="blank"> </font>
+    t</a>
+    <br />
+    <a id="image_button_a" href="./?/Image_index/">
+      <input id="image_button" name="navigation" type="radio" value="image_navigation" checked/>
+      i<font class="blank"> </font>m<font class="blank"> </font>a<font class="blank"> </font>g<font class="blank"> </font>e
+      </a> <br /> 
+
+      
+		<input name="sort" type="button" onClick="javascript:
+        
+var v = this.value;
+if(v=='Sort!'){        this.value='Mix!';
+
+$('#draggable_container').each(function(){$(this).css('width',95+'%');});
+        $('.draggable').each(function(){$(this).css('left', 0); $(this).css('top', 0); $(this).css('z-index', 0); $(this).css('display','inline-block');$(this).css('position', 'relative');$(this).css('vertical-align', 'top'); $(this).css('margin-right', 20);$(this).css('margin-bottom', 20);});}
+        else if(v=='Mix!'){
+        this.value='Sort!';	
+           $('#draggable_container').each(function(){$(this).css('width', 1100);});
+           
+		$('.draggable').each(
+			function() {
+    		 $(this).css('display','block');
+             
+             $(this).css('position', 'absolute');
+			
+            
+            var l = Math.floor(Math.random() * ($('#draggable_container').width()-$(this).width()));
+			var t = Math.floor(Math.random() * ($('#draggable_container').height()-$(this).height()));
+
+			var z = Math.floor(Math.random() * 89);
+
+			$(this).css('left', l);
+			$(this).css('top', t);
+			$(this).css('z-index', z);
+			
+		}
+	);
+        
+        }
+        " id="sort_button" value="Sort!">      
+
+  </p>
+</div>
+  <div class="menu">
+<a href="./?/more/">&rarr; a<font class="blank"> </font>b<font class="blank"> </font>o<font class="blank"> </font>u<font class="blank"> </font>t</a>
+<br>    <a href="http://inah-shin.com/content/Inahshin_pdf.pdf" target="_blank"> &darr; p<font class="blank"> </font>d<font class="blank"> </font>f </a> </div>
+
+
+
+
+
+ </div>
+		
+        <div id="footer_container">
+        <div class="footer">
+           &copy; Copyright_In-ah Shin_@current_year<br />
+  & Content managed by_<a href="http://www.staceyapp.com" target="_blank">Stacey</a>	 </div>
+   </div>             
+   
+   <div id='draggable_container'>
+
+            	:category_lists_image
+			
+            </div>
+	</body>
+</html>
